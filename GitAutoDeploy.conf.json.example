@@ -4,7 +4,8 @@
 	[{
 		"url": "https://github.com/logsol/Test-Repo", 
 		"path": "/home/logsol/projects/Test-Repo",
-		"deploy": "echo deploying"
+                "branch": "refs/heads/master",
+                "deploy": "git merge FETCH_HEAD"
 	}, 
 	{
 		"url": "https://github.com/logsol/Katharsis-Framework",
