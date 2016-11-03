@@ -1,0 +1,1 @@
+su <USER-HERE> -c 'cd /home/<USER-HERE>/Github-Auto-Deploy && ./GitAutoDeploy.py --daemon-mode >> /var/log/github-auto-deploy/github-auto-deploy.log 2>&1'
